@@ -1,0 +1,42 @@
+{
+	"vars":
+	{
+		"selectionType":[ "Values" , "Ranking and Values" , "Ranking" ],
+		"dataLabels":["1900", "1901", "1902" , "1903",	"1904",	"1905",	"1906",	"1907",	"1908",	"1909",	"1910"],
+		"startValue":"1900",
+		"endValue":"1910",
+		"precision":1,
+		"scalingType":"Ranking and Values",
+		"dataRangeType":"Fixed",
+		"fixedBarHeights":[],
+		"units":"Visits",
+		"groups":[ "grp1"  , "grp2" , "grp3" , "grp4" , "grp5" , "grp6", "Show all" ],
+		"grpColorArray":[ "#00ACC3" , "#E7007C" , "#024364" , "#EA6908" , "#662584", "#CDBB00", "#9D9D9D" ],
+		"axes":false,
+		"category":"Category",	
+		"minFixed":0.0,
+		"maxFixed":100.0,
+		"gapWidthValue":4,
+		"dyValue":[ 0.5 , 0.5 , 0.5 ],		
+		"outer_buffer":[ 25 , 50 , 75],
+        "numXAxisTicks":[  2 , 5 , 10 ],
+		"fontSize":[ 10 , 12 , 13 ]
+	},
+    "essential" : {
+        
+            "sourceText":["Office for National Statistics"],
+            "sourceURL":["http://www.ons.gov.uk/ons/publications/re-reference-tables.html?edition=tcm%3A77-406271"]
+        
+    },
+    "optional" : {
+            "margin_sm": [5, 15, 10, 15],
+            "margin_md": [5, 15, 10, 15],
+            "margin_lg": [5, 15, 10, 15],        
+            "aspectRatio_sm" : [16,24],
+            "aspectRatio_md" : [16,20],
+            "aspectRatio_lg" : [16,12],        
+            "mobileBreakpoint" : 610
+    }
+}
+
+
